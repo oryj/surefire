@@ -97,12 +97,12 @@
     <mavenSharedUtilsVersion>3.3.4</mavenSharedUtilsVersion>
     <powermockVersion>2.0.9</powermockVersion>
     <jacocoVersion>0.8.8</jacocoVersion>
-    <surefire-shared-utils.version>${project.version}</surefire-shared-utils.version>
+    <surefire-shared-utils.version>3.0.0</surefire-shared-utils.version>
     <maven.surefire.scm.devConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-surefire.git</maven.surefire.scm.devConnection>
     <maven.site.path>surefire-archives/surefire-LATEST</maven.site.path>
     <maven.compiler.testSource>1.${javaVersion}</maven.compiler.testSource>
     <maven.compiler.testTarget>1.${javaVersion}</maven.compiler.testTarget>
-    <jvm9ArgsTests />
+    <jvm9ArgsTests/>
     <jvm.args.tests>${jvm9ArgsTests} -Xms32m -Xmx144m -XX:SoftRefLRUPolicyMSPerMB=50 -Djava.awt.headless=true -Djdk.net.URLClassPath.disableClassPathURLCheck=true</jvm.args.tests>
     <project.build.outputTimestamp>2022-03-30T21:54:09Z</project.build.outputTimestamp>
   </properties>
@@ -552,7 +552,7 @@
         -->
         <id>ide-development</id>
         <properties>
-            <surefire-shared-utils.version>3-SNAPSHOT</surefire-shared-utils.version>
+            <surefire-shared-utils.version>3.0.0</surefire-shared-utils.version>
         </properties>
     </profile>
     <profile>
